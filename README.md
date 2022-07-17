@@ -299,7 +299,7 @@ Il peut être utilisé de deux manières :
 
 1. en créant une section dans un fichier &lt;nom_section>.php
 
-    ```
+```
 {% extends "section-modele-par.php" %} 
 
 {% set section_layout='section-layout-default.php' %}
@@ -335,7 +335,7 @@ créée dans exemple-section-mode.php
 
 2. en définissant le contenu de la section dans le champ ‘sections’ du  fichier config-site.json
 
-    ```
+```
 		{
 			"section_modele": {
 				"section_layout": "section-layout-default.php",
