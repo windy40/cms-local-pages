@@ -1,5 +1,4 @@
-# 
-    Guide de l’utilisateur
+# Guide de l’utilisateur
 
 
 ## Fonctionnalités
@@ -82,9 +81,8 @@ Une section peut être de deux types :  “simple” ou “widget”.
 II y a plusieurs manières de créer une section “simple” :
 
 
-
-    * en écrivant du code html “standalone” entre des balises &lt;section> et &lt;/section>, qui sera inséré après le bloc menu du bloc body
-    * sous forme de gabarit pour utiliser la puissance de l’approche des gabarits TWIG et faciliter la réutilisation et la personnalisation ultérieure de la section
+* en écrivant du code html “standalone” entre des balises &lt;section> et &lt;/section>, qui sera inséré après le bloc menu du bloc body
+* sous forme de gabarit pour utiliser la puissance de l’approche des gabarits TWIG et faciliter la réutilisation et la personnalisation ultérieure de la section
 
 Par exemple, la section simple hello-with-gbt étend le gabarit section-layout-simple.php
 
