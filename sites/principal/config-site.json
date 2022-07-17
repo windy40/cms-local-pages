@@ -1,0 +1,79 @@
+{
+	"global": {
+		"MetaTitle": "CMS L-P principal",
+		"MetaDesc": "site principal du CMS pour créer des sites monopages"
+	},
+	"sections": [
+		{
+			"name": "header"
+		},
+		{
+			"name": "navbar",
+			"menu": {
+				"id": "monMenu",
+				"logo": "",
+				"title": "CMS Loose Pages",
+				"start_items": [
+					{
+						"name": "Hello",
+						"ref": "#hello"
+					},
+					{
+						"name": "Exemples avec gabarit",
+						"subitems": [
+							{
+								"name": "Hello from template",
+								"ref": "#hello_with_gbt"
+							},
+							{
+								"name": "exemple avec section modele",
+								"ref": "#exemple_section_modele"
+							},
+							{
+								"name": "exemple avec section modele sans fichier",
+								"ref": "#exemple_section_modele_unnamed"
+							},
+							{
+								"name": "exemple-widget",
+								"ref": "#exemple_widget"
+							}
+						]
+					}
+				],
+				"end_items": []
+			}
+		},
+		{
+			"name": "hello"
+		},
+		{
+			"name": "hello-with-gbt"
+		},
+		{
+			"name": "exemple-section-modele"
+		},
+		{
+			"section_modele": {
+				"section_layout": "section-layout-default.php",
+				"content_layout": "content-layout-default.php",
+				"section_blocks": {
+					"section_id": "exemple_section_modele_unnamed",
+					"section_title": "Exemple de section ",
+					"section_subtitle": "créée avec config-site"
+				},
+				"content_blocks": {
+					"box1": "<h3>box 1</h3>Bonjour ",
+					"box2": "<h3>box 2</h3><p>Ce gabarit définit un layout de section à deux niveaux : <ul><li>le layout global de la section(typiquement le titre, soustitre, contenu) </li><li> le layout du contenu de la section (typiquement organisation en blocs ey disposition des blocs du contenu)</li></ul>Pour cela il s'appuie ('extends' en Twig) sur le gabarit du layout global de la section  et incorpore ('embed' en Twig) le layout du contenu.Le choix du layout de section du layout de contenu sont paramétrables.</p>"
+				}
+			}
+		},
+		{
+			"name": "exemple-widget",
+			"view": "exemple-widget-with-section-modele.php",
+			"data_loader": "data_loader_from_file.php"
+		},
+		{
+			"name": "footer"
+		}
+	]
+}

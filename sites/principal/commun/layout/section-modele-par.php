@@ -1,0 +1,1 @@
+{% extends template_from_string (include('section-modele-tfs.php'), "section-modele-tfs.php") %}

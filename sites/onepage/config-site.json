@@ -1,0 +1,39 @@
+{
+	"global": {
+		"MetaTitle": "CMS L-P / secondaire",
+		"MetaDesc": "site monopage secondaire pour le CMS Loose Pages"
+	},
+	"sections": [
+		{
+			"name": "header"
+		},
+		{
+			"name": "navbar",
+			"menu": {
+				"id": "monMenu",
+				"logo": "",
+				"title": "CMS Loose Pages",
+				"start_items": [
+					{
+						"name": "Hello",
+						"ref": "#hello"
+					},
+					{
+						"name": "Hello from template",
+						"ref": "#hello-from-gbt"
+					}
+				],
+				"end_items": []
+			}
+		},
+		{
+			"name": "hello"
+		},
+		{
+			"name": "hello-from-gbt"
+		},
+		{
+			"name": "footer"
+		}
+	]
+}

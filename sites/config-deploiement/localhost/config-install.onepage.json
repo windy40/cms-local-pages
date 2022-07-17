@@ -1,0 +1,29 @@
+{
+	"install": {		
+		"Rep": "http://localhost/cms-loose-pages/sites/onepage/",
+		"path_to_files": "./",
+		"path_to_widgets": "../principal/commun/",
+		"Rep_commun": "http://localhost/cms-loose-pages/sites/principal/commun/",
+		"path_commun": "../principal/commun/",
+		"path_local": "./local/",
+		"log": true
+	},
+	"build": {
+		
+		"twig_render_cache": false,
+		"optimize_build": true,
+		"optimize_build_options":{
+			"use_git_ftp_info": false,
+			"cache_dir": "./cache/",
+			"log": true
+		},
+		"default_twig_loader_path": [
+			"./",
+			"./local",
+			"./local/layout/",
+			"../principal/commun/",
+			"../principal/commun/layout/"
+		],
+		"twig_tmpl_dirnames":["gbt", "layout", "partials"]
+	}
+}

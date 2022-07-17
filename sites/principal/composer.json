@@ -1,0 +1,14 @@
+{
+    "require": {
+		"twig/twig": "^3.0",
+        "twig/intl-extra": "^3.4",
+		"google/apiclient": "^2.12.1"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Drive",
+			"Sheet",
+			"Form"
+			]
+    }
+}
